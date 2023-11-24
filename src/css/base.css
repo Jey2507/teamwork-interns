@@ -8,6 +8,10 @@ body {
     padding-bottom: 80px;
 }
 
+.accent-color {
+    color: #ECD979;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .container {

@@ -1,0 +1,43 @@
+.hero-title {
+    max-width: 335px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 14px 36px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.hero-btn-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.hero-additional-content {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-wrapper {
+        display: flex;
+
+    }
+
+    .hero-additional-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

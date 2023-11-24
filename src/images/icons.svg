@@ -1,7 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-arrow" viewBox="0 0 32 32">
-<path fill="#ecd979" style="fill: var(--color1, #ecd979)" d="M27.766 17.957c-0.174-1.303-0.286-2.466-0.337-3.49-0.022-1.040 0.017-1.94 0.119-2.7l-25.293 14.603-1.197-2.073 25.293-14.603c-0.728-0.325-1.537-0.758-2.426-1.297-0.861-0.556-1.803-1.218-2.825-1.988l1.519-0.877c3.209 1.349 6.143 2.024 8.804 2.023l0.513 0.888c-1.35 2.271-2.233 5.149-2.65 8.636l-1.519 0.877z"></path>
+<symbol id="icon-arrow" viewBox="0 0 48 32">
+<path fill="#ecd979" style="fill: var(--color1, #ecd979)" d="M40.165 18.935c-0.261-1.955-0.429-3.7-0.506-5.235-0.033-1.56 0.026-2.91 0.178-4.050l-37.94 21.905-1.795-3.109 37.94-21.905c-1.092-0.488-2.305-1.137-3.639-1.945-1.291-0.834-2.704-1.827-4.238-2.981l2.278-1.315c4.813 2.024 9.215 3.036 13.206 3.035l0.769 1.332c-2.025 3.406-3.35 7.724-3.975 12.954l-2.278 1.315z"></path>
+</symbol>
 </symbol>
 <symbol id="icon-burger" viewBox="0 0 32 32">
 <path fill="none" stroke="#ecd979" style="stroke: var(--color1, #ecd979)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1818" d="M5.961 8.628h24.949"></path>
