@@ -1,0 +1,141 @@
+header {
+  padding: 20px 0;
+  top: 0;
+
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu-btn {
+  background-color: transparent;
+  border: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.header-icon-svg {
+  fill: rgba(252, 249, 249, 1);
+}
+
+.header-icon-list {
+  display: flex;
+  gap:12px;
+}
+
+
+
+.container-header-2 {
+  display: flex;
+}
+
+
+.header-contacts {
+  display: none;
+}
+
+.header-nav-list {
+  display: none;
+}
+
+.header-icon-link {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  width:44px;
+  height:44px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: rgba(252, 249, 249, 0.1);
+    transition: border 200ms ease-in-out, background-color 400ms ease-in-out;
+}
+
+.header-icon-link:hover,
+.header-icon-link:focus {
+  border-color:#ECD979;
+}
+
+.container-header-2 {
+  gap:12px;
+}
+@media screen and (min-width:768px) {
+  .container-header-2 {
+    gap:20px;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 1280px) {
+ 
+
+  .header-menu-btn {
+    display: none;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+
+
+.item-link {
+  color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    transition:color 200ms ease-in-out;
+}
+
+.item-link:hover,
+.item-link:focus {
+color:#ECD979;
+}
+
+
+
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+
+
+}
+.header-phone {
+  color: #FCF9F9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 14px 28px;
+  border-radius: 15px;
+  transition: border 200ms ease-in-out;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+  border: 1px solid #ECD979;
+  
+}
+
+}
