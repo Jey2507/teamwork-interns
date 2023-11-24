@@ -3,7 +3,7 @@
   width: 375px;
   padding-top: 630px;
   padding-bottom: 0;
-  background-image: url(../img/girl2-m.jpg);
+  background-image: url(../images/your_order/girl2-m.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 375px 550px;
@@ -121,7 +121,7 @@
 
 @media (min-resolution: 192dpi) {
   .order {
-    background-image: url(../images/your_order/green_shirt_mob@2x.jpg);
+    background-image: url(../images/your_order/girl2-m@2x.jpg);
   }
 }
 
@@ -130,7 +130,7 @@
     width: 768px;
     padding-top: 0;
     padding-bottom: 0;
-    background-image: url(../images/your_order/green_shirt_tab.jpg);
+    background-image: url(../images/your_order/girl2-t.jpg);
     background-size: 768px 776px;
   }
 
@@ -138,7 +138,7 @@
     width: 768px;
     padding-top: 876px;
     padding-bottom: 79px;
-    background-image: url(../images/your_order/ornament.png);
+    background-image: url(../images/your_order/ornament-order-tablet.png);
     background-repeat: no-repeat;
     background-size: 323px 484px;
     background-position: left bottom;
@@ -199,11 +199,11 @@
 
   @media (min-resolution: 192dpi) {
     .order {
-      background-image: url(../images/your_order/green_shirt_tab@2x.jpg);
+      background-image: url(../images/your_order/girl2-t@2x.jpg);
     }
 
     .order-background-container {
-      background-image: url(../images/your_order/ornament@2x.png);
+      background-image: url(../images/your_order/ornament-order-tablet@2x.png);
     }
   }
 }
@@ -213,7 +213,7 @@
     width: 1280px;
     padding-top: 0;
     padding-bottom: 0;
-    background-image: url(../images/your_order/green_shirt_dt1280.jpg);
+    background-image: url(../images/your_order/girl-d1.jpg);
     background-size: 1282px 776px;
   }
 
@@ -221,7 +221,7 @@
     width: 1280px;
     padding-top: 926px;
     padding-bottom: 0;
-    background-image: url(../images/your_order/ornament.png);
+    background-image: url(../images/your_order/ornament-order-desktop.png);
     background-repeat: no-repeat;
     background-size: 289px 484px;
     background-position: left bottom;
@@ -253,11 +253,11 @@
 
   @media (min-resolution: 192dpi) {
     .order {
-      background-image: url(../images/your_order/green_shirt_dt1280@2x.jpg);
+      background-image: url(../images/your_order/girl-d1@2x.jpg);
     }
 
     .order-background-container {
-      background-image: url(../images/your_order/ornament@2x.png);
+      background-image: url(../images/your_order/ornament-order-desktop@2x.png);
     }
   }
 }
