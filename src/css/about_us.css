@@ -1,0 +1,122 @@
+/* About-us Mobile */
+@media screen and (max-width:767px) {
+    
+.about-us-container {
+    padding: 80px, 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.about-us-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-us-ittle {
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.37;
+letter-spacing: -0.07em;
+color: #FCF9F9;
+}
+
+.about-us-info-block {
+    gap: 20px;
+}
+
+.about-us-info {
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+color: rgba(252, 249, 249, 0.40);
+}
+}
+
+/* About-us Tablet */
+
+@media screen and (min-width: 768px) {
+
+    .about-us-container{
+        padding: 100px, 32px;
+        gap: 40px;
+    }
+
+    .about-us-ittle {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    }
+
+    .about-us-info {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    }
+
+    .about-us-img-block {
+        position: relative;
+    }
+    .bg-img {
+        position: absolute;
+        right: -280px;
+        bottom: -50px;
+        background-image: url("/src/images/about_us/about_ornament_tab.png");
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .bg-img {
+            background-image: url("/src/images/about_us/about_ornament_tab@2x.png");
+        }
+    }
+    
+}
+
+/* About-us Desctop 1280 */
+@media screen and(min-width: 1280px) {
+    
+    .about-us-container {
+        padding: 150px, 100px;
+        display: inline-flex;
+        gap: 50px;
+    }
+
+    .bg-img {
+        right: -260px;
+        bottom: -80px;
+        background-image: url("./src/images/about_us/about_ornament_tab_dt.png");
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+        .bg-img {
+            background-image: url("/src/images/about_us/about_ornament_tab_dt@2x.png");
+        }
+    }
+}
+
+/* About-us Dwsctop 1440 */
+
+@media screen and(min-width: 1440px) {
+
+    .about-us-text-block {
+        height: 389px;
+    }
+
+    .bg-img {
+        right: -100px;
+    }
+}
