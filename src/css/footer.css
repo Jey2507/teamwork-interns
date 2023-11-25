@@ -1,0 +1,57 @@
+/* .page-footer {
+    position: relative;
+} */
+
+.footer-background-container {
+    min-width: 375px;
+    height: 201px;
+    background-image:
+        url(../images/footer/ornament_mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppi),
+screen and (min-device-pixel-ratio: 2) {
+    .footer-background-container {
+        background-image: url(../images/footer/ornament_mob@2x.png)
+    }
+
+}
+
+.footer-menu {
+    margin: 40px 0 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 0;
+    max-width: 320;
+}
+
+.footer-menu-item {
+    flex-basis: calc((100% - 34px) / 2);
+    font-size: 14px;
+    line-height: 128.571%;
+    text-transform: uppercase;
+
+
+}
+
+.footer-title {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122.727%;
+    letter-spacing: -0.03em;
+    letter-spacing: -1.32px;
+    padding-bottom: 80px;
+}
+
+.Ukrainian {
+    color: #ECD979;
+}
