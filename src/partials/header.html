@@ -67,7 +67,7 @@
         </li>
       </ul>
 
-      <button class="header-menu-btn" id="open-menu" type="button">
+      <button class="header-menu-btn" onclick="openbtn()" id="open-menu" type="button">
         <svg class="header-menu-icon" width="36" height="36">
           <use href="../images/icons.svg#icon-burger"></use>
         </svg>
@@ -91,10 +91,10 @@
 
 
 
-<div id="backdrop-menu" class="backdrop-menu is-open">
+<div id="backdrop-menu" class="backdrop-menu">
   <div class="container menu-container">
    
-<button id="close-btn" type="button" class="menu-btn">
+<button id="close-btn" onclick="closebtn()" type="button" class="menu-btn">
 <svg class="close-icon" height="36" width="36">
   <use href="../images/icons.svg#icon-close"></use>
 </svg>
