@@ -128,7 +128,6 @@
   .order {
     width: 768px;
     padding-top: 0;
-    padding-bottom: 0;
     background-image: url(../images/your_order/use_img/girl2-t.jpg);
     background-size: 768px 776px;
   }
@@ -211,7 +210,6 @@
   .order {
     width: 1280px;
     padding-top: 0;
-    padding-bottom: 0;
     background-image: url(../images/your_order/use_img/girl-d1.jpg);
     background-size: 1282px 776px;
   }
