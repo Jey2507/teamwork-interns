@@ -60,7 +60,6 @@
     font-weight: 400;
     line-height: 122.727%;
     letter-spacing: -0.03em;
-    letter-spacing: -1.32px;
     max-width: 335px;
     margin-bottom: 80px;
 
@@ -92,10 +91,11 @@
 @media (min-width:768px) {
     .footer-block {
         display: flex;
+        justify-content: space-between;
     }
 
     .footer-container {
-        padding: 0 32px 0 32px;
+        padding: 0 32px 0 41px;
 
 
     }
@@ -120,6 +120,8 @@
     }
 
     .footer-title {
+        font-size: 54px;
+        line-height: 118.519%;
         max-width: 521px;
         margin-bottom: 40px;
     }
@@ -129,6 +131,55 @@
     (min-device-pixel-ratio: 2) {
         .footer-background-container {
             background-image: url(../images/footer/ornament_tab@2x.png)
+        }
+
+    }
+
+}
+
+@media (min-width:1280px) {
+
+    .footer-container {
+        padding: 0 100px 0 90px;
+    }
+
+    .footer-title {
+        max-width: 754px;
+        font-size: 64px;
+        line-height: 115.625%;
+    }
+
+    .footer-background-container {
+        background-image:
+            url(../images/footer/ornament_dt1280.png);
+        min-width: 336px;
+        min-height: 363px;
+    }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppi),
+    (min-device-pixel-ratio: 2) {
+        .footer-background-container {
+            background-image: url(../images/footer/ornament_dt1280@2x.png)
+        }
+
+    }
+
+}
+
+@media (min-width:1440px) {
+    .footer-background-container {
+
+        background-image:
+            url(../images/footer/ornament_dt1440.png);
+        min-width: 496px;
+    }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppi),
+    (min-device-pixel-ratio: 2) {
+        .footer-background-container {
+            background-image: url(../images/footer/ornament_dt1440@2x.png)
         }
 
     }
