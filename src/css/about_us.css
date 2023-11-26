@@ -62,12 +62,10 @@ color: rgba(252, 249, 249, 0.40);
         position: relative;
     }
     .bg-img {
-        position: absolute;
-        right: -280px;
-        bottom: -50px;
         background-image: url("../images/about_us/about_ornament_tab.png");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: bottom 0 right 0;
     }
 
     @media screen and (min-resolution: 192dpi) and (min-width: 768px),
