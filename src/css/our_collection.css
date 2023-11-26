@@ -1,0 +1,146 @@
+.our-collection-section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: 0.03em;
+  margin-bottom: 40px;
+}
+
+.our-collection-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.our-collection-img {
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.our-collection-card-title {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.our-collection-card-price {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+.our-collection-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.our-collection {
+  background-image: url(../images/our_collection_o/ornament_mob.png);
+  background-position-y: 298px;
+  background-repeat: no-repeat;
+  background-size: 72px 177px;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .our-collection {
+    background-image: url(../images/our_collection_o/ornament_mob@2x.png);
+  }
+}
+
+/*---------- TABLET STYLES ----------*/
+
+@media screen and (min-width: 768px) {
+  .our-collection-section-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .our-collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  .our-collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .our-collection-card-title {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .our-collection-card-price {
+    font-size: 18px;
+  }
+
+  .our-collection {
+    background-image: url(../images/our_collection_o/ornament_tab.png);
+    background-position-y: 221px;
+    background-size: 114px 300px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .our-collection {
+      background-image: url(../images/our_collection_o/ornament_tab@2x.png);
+    }
+  }
+}
+
+/*---------- DESKTOP STYLES ----------*/
+
+@media screen and (min-width: 1280px) {
+  .our-collection-list-item {
+    width: calc((100% - 40px) / 3);
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .our-collection-list-item:hover {
+    transform: scale(1.05);
+  }
+
+  .our-collection-list-item:hover .our-collection-img {
+    box-shadow: 2px 2px 9px 0px rgba(92, 92, 76, 1);
+  }
+
+  .our-collection-list {
+    row-gap: 40px;
+  }
+
+  .our-collection {
+    background-image: url(../images/our_collection_o/ornament_dt.png);
+    background-size: 169px 300px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .our-collection {
+      background-image: url(../images/our_collection_o/ornament_dt@2x.png);
+    }
+  }
+}
+
+/*---------- DESKTOP STYLES 1440 ----------*/
+
+@media screen and (min-width: 1440px) {
+  .our-collection {
+    background-position-y: 231px;
+  }
+}
