@@ -27,6 +27,8 @@ color: #FCF9F9;
 }
 
 .about-us-info-block {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -37,6 +39,21 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.04em;
 color: rgba(252, 249, 249, 0.40);
+}
+
+.bg-img {
+    background-image: url("../images/about_us/about_ornament_mob.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 0 right 0;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .bg-img {
+        background-image: url("../images/about_us/about_ornament_mob@2x.png");
+    }
 }
 
 /* About-us Tablet */
@@ -58,14 +75,8 @@ color: rgba(252, 249, 249, 0.40);
     letter-spacing: -0.04em;
     }
 
-    .about-us-img-block {
-        position: relative;
-    }
     .bg-img {
         background-image: url("../images/about_us/about_ornament_tab.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom 0 right 0;
     }
 
     @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -87,8 +98,6 @@ color: rgba(252, 249, 249, 0.40);
     }
 
     .bg-img {
-        right: -260px;
-        bottom: -80px;
         background-image: url("../images/about_us/about_ornament_tab_dt.png");
     }
 
@@ -107,9 +116,5 @@ color: rgba(252, 249, 249, 0.40);
 
     .about-us-text-block {
         height: 389px;
-    }
-
-    .bg-img {
-        right: -100px;
     }
 }
