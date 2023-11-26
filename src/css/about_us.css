@@ -66,6 +66,8 @@ color: rgba(252, 249, 249, 0.40);
         right: -280px;
         bottom: -50px;
         background-image: url("../images/about_us/about_ornament_tab.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -82,7 +84,7 @@ color: rgba(252, 249, 249, 0.40);
 @media screen and(min-width: 1280px) {
     
     .about-us-container {
-        display: inline-flex;
+        flex-direction: row;
         gap: 50px;
     }
 
