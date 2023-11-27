@@ -30,6 +30,10 @@
     display: none;
 }
 
+.accent-color {
+    color: #ECD979;
+}
+
 @media screen and (min-width: 768px) {
     .hero-wrapper {
         position: relative;
