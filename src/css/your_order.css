@@ -1,0 +1,259 @@
+.order {
+  margin: 0 auto;
+  width: 375px;
+  padding-top: 630px;
+  background-image: url(../images/your_order/use_img/girl2-m.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 375px 550px;
+}
+
+.order-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-pic {
+  display: none;
+}
+
+.order-title {
+  width: 335px;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.order-span {
+  color: #ecd979;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-input {
+  color: #fcf9f9;
+  width: 335px;
+  height: 47px;
+  padding: 14px 16px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-input:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+}
+
+.order-textarea {
+  color: #fcf9f9;
+  resize: none;
+  width: 335px;
+  height: 196px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 40px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-textarea:focus {
+  border-color: rgba(252, 249, 249, 0.6);
+}
+
+.order-input::placeholder,
+.order-textarea::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+}
+
+.order-btn {
+  display: flex;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  background-color: transparent;
+  outline: none;
+  margin-right: auto;
+  margin-left: auto;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-btn:hover,
+.order-btn:focus,
+.order-btn:active {
+  border-color: #ecd979;
+}
+
+.order-icon {
+  fill: #ecd979;
+}
+
+@media (min-resolution: 192dpi) {
+  .order {
+    background-image: url(../images/your_order/use_img/girl2-m@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .order {
+    width: 768px;
+    padding-top: 0;
+    background-image: url(../images/your_order/use_img/girl2-t.jpg);
+    background-size: 768px 776px;
+  }
+
+  .order-background-container {
+    width: 768px;
+    padding-top: 876px;
+    padding-bottom: 79px;
+    background-image: url(../images/your_order/use_img/ornament-order-tablet.png);
+    background-repeat: no-repeat;
+    background-size: 323px 484px;
+    background-position: left bottom;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .order-form-wrapper {
+    margin-bottom: 100px;
+    align-items: flex-start;
+  }
+
+  .order-title {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+
+  .order-span {
+    font-size: 44px;
+    line-height: 1.32;
+  }
+
+  .order-input {
+    width: 508px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .order-textarea {
+    width: 508px;
+    height: 196px;
+    margin-bottom: 40px;
+  }
+
+  .order-input::placeholder,
+  .order-textarea::placeholder {
+    font-size: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .order-btn {
+    display: flex;
+    padding: 14px 39px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    margin-left: 0;
+  }
+
+  .order-pic {
+    display: block;
+    width: 638px;
+    height: 521px;
+    margin-left: auto;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .order {
+      background-image: url(../images/your_order/use_img/girl2-t@2x.jpg);
+    }
+
+    .order-background-container {
+      background-image: url(../images/your_order/use_img/ornament-order-tablet@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order {
+    width: 1280px;
+    padding-top: 0;
+    background-image: url(../images/your_order/use_img/girl-d1.jpg);
+    background-size: 1282px 776px;
+  }
+
+  .order-background-container {
+    width: 1280px;
+    padding-top: 926px;
+    padding-bottom: 0;
+    background-image: url(../images/your_order/use_img/ornament-order-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 289px 484px;
+    background-position: left bottom;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .order .container {
+    padding-left: 64px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+
+  .order-form-wrapper {
+    margin-bottom: 0;
+  }
+
+  .order-form {
+    margin-bottom: 0;
+  }
+
+  .order-pic {
+    display: block;
+    width: 524px;
+    height: 521px;
+    margin-left: 0;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .order {
+      background-image: url(../images/your_order/use_img/girl-d1@2x.jpg);
+    }
+
+    .order-background-container {
+      background-image: url(../images/your_order/use_img/ornament-order-desktop@2x.png);
+    }
+  }
+}
