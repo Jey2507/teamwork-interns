@@ -11,6 +11,11 @@ img {
     align-items: center;
     gap: 50px;
     overflow: hidden;
+    background-image: url("../images/about_us/about_ornament_mob.png");
+    background-repeat: no-repeat;
+    background-size: 250px 408px;
+    background-position: bottom right;
+    padding-bottom: 62px;
 }
 
 .about-us-text-block {
@@ -23,7 +28,6 @@ img {
 
 .about-us-ittle {
 font-size: 32px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.37;
 letter-spacing: -0.07em;
@@ -38,19 +42,11 @@ color: #FCF9F9;
 
 .about-us-info {
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 letter-spacing: -0.04em;
 color: rgba(252, 249, 249, 0.40);
 }
 
-.bg-img {
-    background-image: url("../images/about_us/about_ornament_mob.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom 0 right 0;
-}
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
@@ -94,12 +90,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 }
 
 /* About-us Desctop 1280 */
-@media screen and(min-width: 1280px) {
-    
+@media screen and (min-width: 1280px) {
     .about-us-container {
         flex-direction: row;
         gap: 50px;
     }
+
+    /* .about-us-info-block {
+        width: 436px;
+    } */
 
     .bg-img {
         background-image: url("../images/about_us/about_ornament_tab_dt.png");
