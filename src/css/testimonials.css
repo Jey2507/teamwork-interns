@@ -103,18 +103,3 @@
 
 
 }
-
-@media screen and (min-width: 1440px) {
-  .info-container {
-    min-height: 264px;
-
-  }
-
-  .testimonials-text {
-    min-width: 360px;
-    min-height: 154px;
-
-  }
-
-
-}

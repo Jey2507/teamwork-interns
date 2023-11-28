@@ -107,18 +107,3 @@
     }
 }
 
-
-@media screen and (min-width: 1440px) {
-    .hero-main-content {
-        padding-top: 66px;
-    }
-
-    .hero-title {
-        width: 632px;
-        font-size: 64px;
-    }
-
-    .hand-made-lable {
-        top: 66px;
-    }
-}

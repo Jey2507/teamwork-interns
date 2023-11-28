@@ -202,11 +202,3 @@
     background-color: rgba(236, 217, 121, 0.8);
   }
 }
-
-/*---------- DESKTOP STYLES 1440 ----------*/
-
-@media screen and (min-width: 1440px) {
-  .our-collection {
-    background-position-y: 231px;
-  }
-}
