@@ -11,11 +11,13 @@ img {
     align-items: center;
     gap: 50px;
     overflow: hidden;
+}
+
+.bg-ornament {
     background-image: url("../images/about_us/about_ornament_mob.png");
     background-repeat: no-repeat;
     background-size: 250px 408px;
     background-position: bottom right;
-    padding-bottom: 62px;
 }
 
 .about-us-text-block {
@@ -59,7 +61,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* About-us Tablet */
 
 @media screen and (min-width: 768px) {
-
     .about-us-container{
         gap: 40px;
     }

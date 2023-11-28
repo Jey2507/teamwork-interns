@@ -9,7 +9,7 @@ body {
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (max-width: 374px) {
     .container {
         padding: 0 20px;
     }
@@ -18,7 +18,7 @@ body {
 
 @media screen and (min-width: 375px) {
     .container {
-        padding: 0 20px;
+        padding: 0;
         margin: 0 auto;
         max-width: 335px;
     }
@@ -26,7 +26,6 @@ body {
 
 @media screen and (min-width: 768px) {
     .container {
-        padding: 0;
         max-width: 704px;
     }
 
