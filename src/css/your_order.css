@@ -226,10 +226,15 @@
   }
 
   .order .container {
-    padding-left: 64px;
+
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
+  }
+
+  .container-order {
+    max-width: 1116.5px;
+    margin-left: 63.5px;
   }
 
   .order-form-wrapper {
