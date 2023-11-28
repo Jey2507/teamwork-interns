@@ -1,46 +1,14 @@
-/* .page-footer {
-    position: relative;
-} */
-
-/* @media(min-width:375px) {
-    .container {
-        margin: 0;
-        width: 100%;
-    }
-} */
-.footer-container {
-    padding: 0 20px 0 20px;
-    /* max-width: 375px;
-    margin: 0 auto 0 auto */
-}
-
-
 .footer-background-container {
-    /* width: 100%; */
-    min-width: 320px;
     height: 201px;
     background-image:
         url(/images/footer/ornament_mob.png);
-    background-repeat: repeat no-repeat;
+    background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
-    /* position: fixed;
-        bottom: 0; */
-    /* right: 0; */
-    /* left: 0 */
 }
 
-
-
-
-/* @media (max-width:320px) {
-    .footer-background-container {
-        min-width: 320px;
-    }
-} */
-
 .footer-menu {
-    margin: 40px 0 40px auto;
+    margin: 40px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 25px 0;
@@ -74,6 +42,11 @@
         margin-right: 40px;
     }
 
+    .footer-background-container {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
     .footer-menu-item {
         flex-basis: calc((100% - 40px) / 2);
     }
@@ -92,12 +65,8 @@
     .footer-block {
         display: flex;
         justify-content: space-between;
-    }
-
-    .footer-container {
-        padding: 0 32px 0 41px;
-
-
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     .footer-menu {
@@ -107,15 +76,11 @@
     }
 
     .footer-background-container {
-        /* flex-basis: 0; */
         background-image:
             url(../images/footer/ornament_tab.png);
-        /* height: 100%; */
         min-height: 370px;
         min-width: 204px;
-        /* right: 0; */
         background-position: right center;
-        /* background-size: contain; */
         background-repeat: NO-REPEAT repeat;
     }
 
@@ -134,14 +99,16 @@
         }
 
     }
-
 }
+
+
 
 @media (min-width:1280px) {
 
-    .footer-container {
-        padding: 0 100px 0 90px;
+    .footer-block {
+        max-width: 1280px;
     }
+
 
     .footer-title {
         max-width: 754px;
@@ -168,6 +135,10 @@
 }
 
 @media (min-width:1440px) {
+    .footer-block {
+        max-width: 1440px;
+    }
+
     .footer-background-container {
 
         background-image:
