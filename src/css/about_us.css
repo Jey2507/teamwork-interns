@@ -1,5 +1,9 @@
 /* About-us Mobile */
     
+img {
+    display: block;
+}
+
 .about-us-container {
     display: flex;
     flex-direction: column;
