@@ -1,0 +1,132 @@
+/* About-us Mobile */
+    
+img {
+    display: block;
+}
+
+.section-about {
+    padding-bottom: 18px;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.bg-ornament {
+    width: 365px;
+    margin: 0 auto;
+    padding-bottom: 62px;
+    background-image: url("../images/about_us/about_ornament_mob.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: bottom right;
+}
+
+.about-us-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-us-ittle {
+font-size: 32px;
+font-weight: 500;
+line-height: 1.37;
+letter-spacing: -0.07em;
+color: #FCF9F9;
+}
+
+.about-us-info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us-info {
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.04em;
+color: rgba(252, 249, 249, 0.40);
+}
+
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .bg-ornament {
+        background-image: url("../images/about_us/about_ornament_mob@2x.png")
+    }
+}
+
+/* About-us Tablet */
+
+@media screen and (min-width: 768px) {
+    .about-us-container{
+        gap: 40px;
+    }
+
+    .about-us-ittle {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    }
+
+    .section-about {
+        padding-bottom: 50px;
+    }
+
+    .about-us-info {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    }
+
+    .bg-ornament {
+        width: 768px;
+        padding-bottom: 50px;
+        background-size: 369px;
+        background-image: url("../images/about_us/about_ornament_tab.png")
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .bg-ornament {
+            background-image: url("../images/about_us/about_ornament_tab@2x.png")
+        }
+    }
+    
+}
+
+/* About-us Desctop 1280 */
+@media screen and (min-width: 1280px) {
+    .about-us-container {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .section-about {
+        padding-bottom: 70px;
+    }
+
+    .bg-ornament {
+        width: 1280px;
+        padding-bottom: 80px;
+        background-size: 545px;
+        background-image: url("../images/about_us/about_ornament_tab_dt.png")
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+        .bg-ornament {
+            background-image: url("../images/about_us/about_ornament_tab_dt@2x.png");
+        }
+    }
+}
