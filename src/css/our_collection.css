@@ -50,10 +50,13 @@
 }
 
 .our-collection {
+  width: 365px;
+  margin: 0 auto;
   background-image: url(../images/our_collection_o/ornament_mob.png);
-  background-position-y: 298px;
+  background-position-y: 294px;
   background-repeat: no-repeat;
-  background-size: 72px 177px;
+  background-size: 72px;
+  padding: 0 20px;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -95,10 +98,13 @@
   }
 
   .our-collection {
+    width: 768px;
     background-image: url(../images/our_collection_o/ornament_tab.png);
     background-position-y: 221px;
-    background-size: 114px 300px;
+    background-size: 114px;
+    padding: 0 32px;
   }
+
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px),
@@ -123,7 +129,10 @@
   }
 
   .our-collection {
-    background-size: 169px 300px;
+    background-position-y: 157px;
+    background-size: 169px;
+    width: 1280px;
+    padding: 0 100px;
   }
 
   .overlay-box {

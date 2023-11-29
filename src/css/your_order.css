@@ -194,7 +194,10 @@
     overflow: hidden;
   }
 
-  @media (min-resolution: 192dpi) {
+
+  @media screen and (min-resolution: 192dpi) ,
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
     .order {
       background-image: url(../images/your_order/use_img/girl2-t@2x.jpg);
     }
@@ -252,7 +255,9 @@
     margin-left: 0;
   }
 
-  @media (min-resolution: 192dpi) {
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
     .order {
       background-image: url(../images/your_order/use_img/girl-d1@2x.jpg);
     }
